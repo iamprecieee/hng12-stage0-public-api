@@ -36,7 +36,7 @@ A simple API endpoint that retrieves basic information as JSON data, built using
     ```
 
 ### API Documentation
-- Endpoint URL: `/`
+- Endpoint URL: `api/v1/data/`
 - Method: `GET`
 - Response Format: The JSON response data includes the following fields - `email`, `current_datetime`, `github_url`.
 - Example Request:
