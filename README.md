@@ -56,6 +56,7 @@ A simple API endpoint that retrieves basic information as JSON data, built using
         "github_url": "https://github.com/test"
     }
     ```
+- Swagger-UI: [live-docs](https://iamprecieee-endpoint.onrender.com)
 <br>
 
 ## Hire From HNG
