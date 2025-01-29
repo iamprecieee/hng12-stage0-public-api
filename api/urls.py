@@ -5,5 +5,5 @@ from .views import DataView
 app_name = "api"
 
 urlpatterns = [
-    path("data/", DataView.as_view(), name="data")
+    path("", DataView.as_view(), name="data")
 ]
