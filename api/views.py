@@ -2,7 +2,7 @@ from rest_framework.views import APIView
 from .serializer import DataSerializer
 from drf_spectacular.utils import extend_schema
 import os
-from datetime import datetime, timezone
+from django.utils import timezone
 from rest_framework.response import Response
 from rest_framework import status
 
@@ -15,7 +15,7 @@ class DataView(APIView):
         try:
             raw_data = {
                 "email": os.getenv("EMAIL_VALUE"),
-                "current_datetime": datetime.now(timezone.utc).isoformat(),
+                "current_datetime": timezone.now(),
                 "github_url": os.getenv("GITHUB_URL"),
             }
             response_data = self.serializer_class(raw_data).data
