@@ -6,7 +6,7 @@ A simple API endpoint that retrieves basic information as JSON data, built using
 
 ### Local Setup
 ---
-- Clone the project [repository](https://github.com/iamprecieee/stage-0-backend).
+- Clone the project [repository](https://github.com/iamprecieee/hng12-stage0-public-api.git).
 - Ensure python is installed.
 - Create and activate a virtual environment:
     <details>
@@ -56,7 +56,7 @@ A simple API endpoint that retrieves basic information as JSON data, built using
         "github_url": "https://github.com/test"
     }
     ```
-- Swagger-UI: ~[live-docs](https://iamprecieee-endpoint.onrender.com)~
+- Swagger-UI: [live-docs](https://hng12-stage0-public-api-nei9.onrender.com)
 <br>
 
 ## Hire From HNG
