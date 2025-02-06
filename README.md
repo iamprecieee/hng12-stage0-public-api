@@ -56,7 +56,7 @@ A simple API endpoint that retrieves basic information as JSON data, built using
         "github_url": "https://github.com/test"
     }
     ```
-- Swagger-UI: [live-docs](https://hng12-stage0-public-api-nei9.onrender.com)
+- Swagger-UI: [live-docs](https://hng12-stage0-public-api-nei9.onrender.com/schema/swagger-ui)
 <br>
 
 ## Hire From HNG
